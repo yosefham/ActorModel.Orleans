@@ -26,7 +26,6 @@ public class BidController : ControllerBase
             ObjectId = objectId
         };
 
-        
         return await friend.ProcessBid(bid) ? new OkResult() : Problem("The bid processing failed.");
     }
 }

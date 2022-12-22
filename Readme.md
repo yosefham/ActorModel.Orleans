@@ -1,6 +1,6 @@
 # ActorModel.Orleans
 
-This is an example of an bidding app using [Microsoft Orleans 7](https://learn.microsoft.com/en-us/dotnet/orleans/) with persitence using [PostgreSQL](https://www.postgresql.org/).
+This is an example of an bidding app using [Microsoft Orleans 7](https://learn.microsoft.com/en-us/dotnet/orleans/) with persistence using [PostgreSQL](https://www.postgresql.org/).
 
 ## How to run
 
@@ -13,4 +13,4 @@ This is an example of an bidding app using [Microsoft Orleans 7](https://learn.m
 3. Run the server app.
 4. Run the client Api.
 5. perform different calls with some bids.
-6. double check that the state is saved and updated from `orleansstorage` table.
+6. double check that the state is saved and updated in `orleansstorage` table.
