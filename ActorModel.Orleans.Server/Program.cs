@@ -21,7 +21,7 @@ catch (Exception ex)
 static async Task<IHost> StartSiloAsync(IHostBuilder builder)
 {
     var invariant = "Npgsql";
-    var postgres = "Host=localhost:49153;Username=postgres;Password=postgrespw;Database=postgres";
+    var postgres = "Host=localhost:5432;Username=postgres;Password=postgrespw;Database=postgres";
     builder.UseOrleans(silo =>
     {
         silo.UseLocalhostClustering()
